@@ -34,7 +34,7 @@ public class Tax {
 		grossIncome = 0; //class variable initialization
 		state = "";
 		dependents = 0;
-		customerCounter = 1;
+		customerCounter = customerCounter + 1;
 		System.out.println("Preparing the tax data for customer #" + customerCounter);
 	}
 	
@@ -43,6 +43,7 @@ public class Tax {
 		grossIncome = gi; //class variable initialization
 		state = st;
 		dependents = depen;
+		customerCounter = customerCounter + 1;
 		System.out.println("Preparing the tax data for customer #" + customerCounter);
 	}
 }
