@@ -3,9 +3,9 @@ package com.averis;
 public class Tax {
 	//this class has three fields/variables and one method
 	double grossIncome;
-	String state;
+	protected String state;
 	int dependents;
-	int customerCounter;
+	private int customerCounter;
 	
 	public double calcTax(){
 		//return the result of the calculation as a double precision value
@@ -34,7 +34,7 @@ public class Tax {
 		grossIncome = 0; //class variable initialization
 		state = "";
 		dependents = 0;
-		customerCounter = customerCounter + 1;
+		customerCounter++;
 		System.out.println("Preparing the tax data for customer #" + customerCounter);
 	}
 	
@@ -43,7 +43,7 @@ public class Tax {
 		grossIncome = gi; //class variable initialization
 		state = st;
 		dependents = depen;
-		customerCounter = customerCounter + 1;
+		customerCounter++;
 		System.out.println("Preparing the tax data for customer #" + customerCounter);
 	}
 }
