@@ -24,4 +24,17 @@ public class StateSpecificTax extends Tax{
 		super(gi, st, depen);
 		// TODO Auto-generated constructor stub
 	}
+	
+	class TaxOptimizer {
+		int taxCode;
+		
+		void setTaxCode (int tCode){
+			taxCode = tCode;
+		}
+		
+		int optimise(double grossIncome, int dep){
+			//some optimisation code here
+			return 0;
+		} 
+	}
 }
