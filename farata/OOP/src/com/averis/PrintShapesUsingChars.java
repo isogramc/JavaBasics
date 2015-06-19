@@ -2,7 +2,7 @@ package com.averis;
 
 import java.util.Scanner;
 
-public class Mbs {
+public class PrintShapesUsingChars {
 
 	public static void main(String[] args) {
 		int input = 0;
@@ -11,8 +11,6 @@ public class Mbs {
 		do {
 			System.out.println("Please enter an odd number between 3 and 9:");
 			Scanner scc = new Scanner(System.in);
-			
-
 			try {
 				input = Integer.parseInt(scc.nextLine().trim());
 				isNotNumber = false;
