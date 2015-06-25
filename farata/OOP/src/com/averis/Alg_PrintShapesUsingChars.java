@@ -2,7 +2,7 @@ package com.averis;
 
 import java.util.Scanner;
 
-public class PrintShapesUsingChars {
+public class Alg_PrintShapesUsingChars {
 
 	public static void main(String[] args) {
 		int input = 0;

@@ -1,6 +1,6 @@
 //Developer: Theresa JvR Mostert
 //Date: 10 June 2015
-//Company Request: Black Swan (Test)
+//Request: My Black Swan
 //This program allows the user to enter a String and then prints out how many times each character appears in the string
 //Sorted by least to most duplicates
 
@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Collections;
 
-public class MbsQ2 {
+public class Alg_CollectionsHashMapsSorting {
 
 	public static void main(String[] args) {
 

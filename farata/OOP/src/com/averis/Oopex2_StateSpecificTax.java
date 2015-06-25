@@ -1,6 +1,6 @@
 package com.averis;
 
-public class StateSpecificTax extends Tax{
+public class Oopex2_StateSpecificTax extends Oopex2_Tax{
 
 	public double calcTax(){
 		//this method overrides calcTax in Tax(bass) class
@@ -20,7 +20,7 @@ public class StateSpecificTax extends Tax{
 	}
 	
 	
-	StateSpecificTax(double gi, String st, int depen) {
+	Oopex2_StateSpecificTax(double gi, String st, int depen) {
 		super(gi, st, depen);
 		// TODO Auto-generated constructor stub
 	}

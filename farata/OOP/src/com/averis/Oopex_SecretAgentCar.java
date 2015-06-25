@@ -1,6 +1,6 @@
 package com.averis;
 
-public class SecretAgentCar extends Car{
+public class Oopex_SecretAgentCar extends Oopex_Car{
 
 	int currentSubmergeDepth;
 	boolean isGunOnBoard=true;

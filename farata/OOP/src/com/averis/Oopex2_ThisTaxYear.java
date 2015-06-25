@@ -1,6 +1,6 @@
 package com.averis;
 
-public class ThisTaxYear {
+public class Oopex2_ThisTaxYear {
 
 	public static void main (String[] args){
 		double grossIncome; // local variables
@@ -26,7 +26,7 @@ public class ThisTaxYear {
 		dependents= 2;
 		state= "AZ";
 		
-		StateSpecificTax nj = new StateSpecificTax(grossIncome, state, dependents);
+		Oopex2_StateSpecificTax nj = new Oopex2_StateSpecificTax(grossIncome, state, dependents);
 		//Tax t = new Tax(50000, "NJ", 2);
 		
 		//Tax TaxOptimizer tOptimizer = t.getTaxOptimizer();

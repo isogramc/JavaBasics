@@ -1,6 +1,6 @@
 package com.averis;
 
-public class Tax {
+public class Oopex2_Tax {
 	//this class has three fields/variables and one method
 	double grossIncome;
 	protected String state;
@@ -30,7 +30,7 @@ public class Tax {
 	
 	
 	//Constructors
-	Tax(){
+	Oopex2_Tax(){
 		grossIncome = 0; //class variable initialization
 		state = "";
 		dependents = 0;
@@ -39,7 +39,7 @@ public class Tax {
 	}
 	
 	
-	Tax(double gi, String st, int depen){
+	Oopex2_Tax(double gi, String st, int depen){
 		grossIncome = gi; //class variable initialization
 		state = st;
 		dependents = depen;

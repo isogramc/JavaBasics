@@ -1,6 +1,6 @@
 package com.averis;
 
-public class Loan {
+public class Oopex2_Loan {
 	//one method three arguments
 	int calcLoanPayment(int amount, int numberOfMonths){
 		//default for single state (prog assumes is for spec state)

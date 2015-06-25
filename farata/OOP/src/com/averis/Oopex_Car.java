@@ -1,6 +1,6 @@
 package com.averis;
 
-public class Car {
+public class Oopex_Car {
 	String colour;
 	int numOfDoors;
 	

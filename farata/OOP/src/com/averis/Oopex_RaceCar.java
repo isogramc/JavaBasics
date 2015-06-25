@@ -1,12 +1,12 @@
 package com.averis;
 
-import com.averis.Car;
+import com.averis.Oopex_Car;
 
-public class RaceCar {
+public class Oopex_RaceCar {
 	
 	public static void main (String[] args){
-	Car car1 = new Car();
-	Car car2 = new Car();
+	Oopex_Car car1 = new Oopex_Car();
+	Oopex_Car car2 = new Oopex_Car();
 	
 	car1.colour = "red";
 	car2.colour = "green";

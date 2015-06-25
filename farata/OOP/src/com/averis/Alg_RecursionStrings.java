@@ -1,12 +1,12 @@
 //Developer: Theresa JvR Mostert
 //Date: 10 June 2015
-//Application: Black Swan Test
+//Application: My Black Swan
 //This application uses recursion to find the sum of each digit in a given number
 //259 returns 16 because 2+5+9 = 16 
 
 package com.averis;
 
-public class MbsQ3 {
+public class Alg_RecursionStrings {
 	
 	public static void main (String[] args){
 		System.out.println("This program takes a given number and adds it's consecutive digits in the following manner using recursion:");
