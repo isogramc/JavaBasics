@@ -1,0 +1,34 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+
+First Name: <input type="text" ng-model="firstName"><br>
+Last Name: <input type="text" ng-model="lastName"><br>
+<br>
+Print Full Name: {{firstName + " " + lastName}}
+
+<br>
+Print Name (filter-toupper): {{firstName | uppercase}}
+
+<br>
+
+Filter (to lowercase): {{overs | lowercase}}
+
+</div>
+
+<script>
+<!-- Angular modules define applications-->
+var app = angular.module('myApp', []);
+
+<!--Angular controllers control applications-->
+app.controller('myCtrl', function($scope) {
+    $scope.firstName= "John";
+    $scope.lastName= "Doe";
+	$scope.overs="NOM DE PLUME";
+});
+</script>
+</body>
+</html>
