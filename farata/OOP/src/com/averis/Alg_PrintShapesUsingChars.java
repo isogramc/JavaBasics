@@ -13,6 +13,7 @@ public class Alg_PrintShapesUsingChars {
 			Scanner scc = new Scanner(System.in);
 			try {
 				input = Integer.parseInt(scc.nextLine().trim());
+				
 				isNotNumber = false;
 				isEvenNumber = input % 2 == 0;
 			} catch (NumberFormatException e) {
