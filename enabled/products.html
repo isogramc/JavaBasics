@@ -1,0 +1,84 @@
+<!--author: theresa mostert; 0722123869-->
+
+<!DOCTYPE html> <!-- This is the common doctype declaration for HTML5 -->
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+<!-- navbar starts -->
+<div class="nav-bar">
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul
+</nav>
+</div> <!-- navbar ends -->
+ <!-- header & instructions -->
+<div class="box">
+<h1>Payment</h1>
+<p class="align-b">
+Validated Number Inputs display green.</br>Hover over fields for further instructions.</p>
+
+<!-- form opens -->
+<form onsubmit="alert('Submitted');">
+<div class="r-form-card-fields">
+	<p>
+			<input type="radio" name="payment-methods" id="card" class="form-payment-methods">
+			<label>VISA/Master Card</label>
+			<input type="radio" name="payment-methods" id="cash" class="form-payment-methods" checked>
+			<label >C.O.D.</label>
+		
+	</p>
+</div> <!-- header & instructions closing -->
+<!-- form card fields div opens-->
+<div class="form-card-fields">
+
+	<p>
+	<div class="form-align">
+		<label>Card Holder Name:</label>
+		<input type="text" class="text"/>
+	</div>
+</p>
+<p>
+	<div class="form-align">
+		<label>Card Number:</label>
+        <input class="text" id="cardno" name="cardno" placeholder="0000-0000-0000-0000" title="16 Numbers as on front of card - see placeholder as guide" maxlength="19" pattern="[\d]{4}-[\d]{4}-[\d]{4}-[\d]{4}" required/>
+	</div>
+</p>
+
+<p>
+
+	<div class="form-align">
+	<label>Expiry Date (M/yyyy):</label>
+		<input type="month" name="expiry-date" class="text">
+	</div>
+</p>
+
+<p>
+<div class="form-align">
+	<label>Security code / CVV:</label>
+		<input name="cvv" id="cvv" class="text" placeholder="000" title="Enter CVV - three numbers as on back of your card - only" maxlength="3" pattern="[\d]{3}" required/>
+	</div>
+</p>
+</div><!--form card fields div closing -->
+
+<div class="align-b">
+	<input type="button" value="Confirmation ->" />
+</div>
+
+</form><!-- form closing -->
+
+</div>
+</body>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+
+<script src="my-scripts.js"></script>
+
+</html>
+

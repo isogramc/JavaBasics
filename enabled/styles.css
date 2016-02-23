@@ -1,0 +1,120 @@
+/* This is a custom style sheet for the "enabled controls"
+   Javascript mini-project 
+ */
+
+body{
+	background:#222;
+	padding:10em;
+	font-family:'Avenir', 'Arial', 'sans-serif';
+}
+
+h1{
+	padding-left:25px;
+}
+
+.box{	
+	display:inline-block;
+	width:371px;
+	height:400px;
+	padding:10px;
+	border:1px solid #cc3f85;
+	border-radius: 0 0 10px 10px;
+	background:#333;
+	margin: 0 0 0 40px;
+	color:#fff;
+}
+
+
+.form-card-fields{
+	text-align:right; 
+	padding-right:35px;
+}
+
+.align-b{
+	text-align:right; 
+	padding-right:35px;
+}
+
+.r-form-card-fields{
+	text-align:right; 
+	padding-right:35px;
+}
+
+.form-card-fields input.text{
+	width:150px;	
+}
+
+.nav-bar{
+	background:#cc3f85;
+	border-radius: 10px 10px 0 0;
+	width:393px;
+	margin: 0 0 0 40px;
+}
+
+.nav-bar a:link{
+	color:#ccc;
+	text-decoration: none;
+}
+
+.nav-bar a:visited {
+  	color:#fff;
+}
+
+.nav-bar a:hover {
+    color:hotpink;	
+}
+
+.nav-bar a:active{
+	color:hotpink;
+}
+
+ul{
+	font-size: 0;
+	
+}
+
+li{
+	display: inline-block;
+	padding: 8px;
+	background:#cc3f85;
+	font-size:18px;
+}
+
+input:enabled{
+	background:#555;
+	color:#cc3f85;
+	
+}
+
+.is-disabled{
+	color:#ccc;
+}
+
+input:disabled,
+select:disabled{
+	color:#ccc;
+	background:#999;
+}
+
+.text-input-align{
+	height:25px;
+	margin:0 0 0 50px;
+}
+
+.form-align{
+	display: inline-block;
+}
+
+#cvv:valid {
+    color: green;
+}
+#cvv:invalid {
+    color: red;
+}
+
+#cardno:valid {
+    color: green;
+}
+#cardno:invalid {
+    color: red;
+}
