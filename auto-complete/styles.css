@@ -1,0 +1,29 @@
+body{
+    margin: 100px;
+    padding: 15px;
+}
+p{
+    width: 450px;
+}
+            input{
+                width: 170px;
+                height: 20px
+            }
+            .result{
+                background-color:azure;
+                visibility: hidden;
+                width:176px;
+                height:auto;
+                padding:15px 0 15px 0;
+                margin:0px;
+            }
+            
+            .result a {
+                text-decoration: none; 
+            }
+            .result a:hover{
+                text-decoration: none; 
+                background-color: aqua;
+                padding:2px 131px 2px 0 ;
+                margin:0px;
+            }
