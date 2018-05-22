@@ -1,0 +1,53 @@
+// Objective: Given a string S, the task is to change the string according
+// to the condition = If the first letter in a string is capital letter then change
+// the full string to capital letters, else change the full string to small letters
+
+//mock file contents can be paste into a file in the project folder and can be named input.txt
+//file starts here-->
+//2
+//geEkS
+//FoR
+//file ends here-->
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ConditionalCapitalization {
+
+    public static void main(String[] args) {
+        readMyFile();
+    }
+    
+    public static void readMyFile(){
+        List<String> list = new ArrayList<String>();
+        try {
+            File f = new File("src/input.txt");
+            String readLine = "";
+            Integer counter = 0;
+            BufferedReader b = new BufferedReader(new FileReader(f));
+           
+            while ((readLine = b.readLine()) != null){
+              counter = counter + 1;
+                if(counter > 1){
+                  System.out.println(caseModifier(readLine));
+                }
+            }
+            
+        } catch(IOException e) {
+            e.printStackTrace();
+    }
+  }
+    
+  public static String caseModifier(String inputString){
+  
+        if (Character.isUpperCase(inputString.charAt(0))) {
+            return inputString.toUpperCase();
+        } else {
+            return inputString.toLowerCase();
+  } 
+
+}
+
